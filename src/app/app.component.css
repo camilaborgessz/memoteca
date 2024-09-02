@@ -1,5 +1,5 @@
 main {
-    background: url(/src/assets/imagens-angular/computador-cabecalho.png);
+    background-image: url(/assets/imagens-angular/background-completo.png);
     background-size: cover;
     min-height: 60vh;
   }
