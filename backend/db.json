@@ -1,0 +1,16 @@
+{
+  "pensamentos" : [
+    {
+      "id": 1,
+      "conteudo": "Ola",
+      "autoria": "eu",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Ola2",
+      "autoria": "eu2",
+      "modelo": "modelo2"
+    }
+  ]
+}
