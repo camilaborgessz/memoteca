@@ -31,7 +31,7 @@
           id="modelo1"
           value="modelo1"
           name="modelo-card"
-          [(ngModel)] = "pensamento.conteudo">
+          [(ngModel)] = "pensamento.modelo">
           <div class="custom-radio">
             <span></span>
           </div>
@@ -52,7 +52,7 @@
           id="modelo2"
           value="modelo2"
           name="modelo-card"
-          [(ngModel)] = "pensamento.conteudo">
+          [(ngModel)] = "pensamento.modelo">
           <div class="custom-radio">
             <span></span>
           </div>
@@ -72,9 +72,9 @@
           type="radio"
           id="modelo3"
           value="modelo3"
-          name="modelo-card">
-          <div class="custom-radio"
-          [(ngModel)] = "pensamento.conteudo">
+          name="modelo-card"
+          [(ngModel)] = "pensamento.modelo">
+          <div class="custom-radio">
             <span></span>
           </div>
           <span>Modelo 3</span>
@@ -86,10 +86,11 @@
           <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
         </div>
       </div>
+
     </div>
     <div class="acoes">
       <button (click)="criarPensamento()" class="botao">Salvar</button>
-      <button routerLink="/listarPensamento"  class="botao">Cancelar</button>
+      <button (click)="cancelar()"  class="botao">Cancelar</button>
     </div>
   </form>
 </section>
